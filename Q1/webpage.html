@@ -22,6 +22,15 @@
             background: darkturquoise;
 
         }
+		.wrap-container{
+			display: flex;
+			wrap: flex-wrap;
+		}
+		button, #container1, #container2{
+			padding: 10px;
+			margin: 10px;
+			width: 50%;
+		}
 
     </style>
 </head>
@@ -30,14 +39,19 @@
 
     <div id="MyBlock" >
         <h2 style="color: #f9f9f9;background: #555555;text-transform: uppercase ;text-align: center" > Information</h2>
-
-        <button type="button" class="btn btn-primary btn-lg" style="width: -webkit-fill-available" onclick="insert()" class="addBtn">Add</button>
+		
+		<div class='wrap-container'>
+			<button type="button" class="btn btn-primary btn-lg" style="width: -webkit-fill-available" onclick="insert('container1')" class="addBtn">Add to left div</button>
+			<button type="button" class="btn btn-primary btn-lg" style="width: -webkit-fill-available" onclick="insert('container2')" class="addBtn">Add to right div</button>
+		</div>
     </div>
 
     <script src="data.js"></script>
 
-    <div id="container">
-    </div>
+	<div class='wrap-container'>
+		<div id="container1"></div>
+		<div id="container2"></div>
+	</div>
 </body>
 
 </html>

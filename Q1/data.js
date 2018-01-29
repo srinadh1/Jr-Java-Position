@@ -1,7 +1,6 @@
 
-
-// Create a new list item when clicking on the "Add" button
-function insert() {
+// Creating a new list item when clicking on the "Add" button
+function insert(container) {
     var rows =
 
 
@@ -31,5 +30,5 @@ function insert() {
     }
     content += '</tbody>';
     content += '</table>';
-    document.getElementById('container').innerHTML = content;
+    document.getElementById(container).innerHTML = content;
 }
