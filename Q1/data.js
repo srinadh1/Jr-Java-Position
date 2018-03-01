@@ -5,7 +5,7 @@ function insert(container) {
 
 
     [ { first_name : 'Srinadh', last_name : 'Reddy', home : 'Earth' },
-        { first_name : 'Zoe', last_name : 'Heriot', home : 'Space Station W3'},
+        { first_name : 'Nareen', last_name : 'Chowdary', home : 'Space Station W3'},
         { first_name : 'Jo', last_name : 'Grant', home : 'Earth'},
         { first_name : 'Leela', last_name : null, home : 'Unspecified'},
         { first_name : 'Romana', last_name : null, home : 'Gallifrey'},
